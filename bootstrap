@@ -5,4 +5,4 @@ ls -al
 echo "#####################"
 cd /app
 # ./proxy http -m -p :$PORT -t ws --local-ws-password 020Sdu*#*
-./proxy http -m -p :$PORT -t kcp--kcp-key 020Sdu*#*
+./proxy http -m -p :$PORT -t kcp --kcp-key 020Sdu*#*
